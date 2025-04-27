@@ -9,30 +9,30 @@ This is an Android app built in Kotlin that fetches cat images from an API and d
 - Supports placeholder images while loading the actual image.
 
 ### Project Structure
-data/
-   ├── model/
-   │   └── Cat.kt
-   ├── api/
-   │   ├── ApiService.kt
-   │   └── RetrofitInstance.kt
-repository/
-   └── CatRepository.kt
-ui/
-   ├── adapter/
-   │   └── CatAdapter.kt
-   ├── main/
-   │   ├── MainActivity.kt
-   │   ├── MainViewModel.kt
-   │   └── MainViewModelFactory.kt
-   ├── detail/
-   │   └── DetailActivity.kt
-utils/
-   └── Resource.kt
-res/
-   └── layout/
-       ├── activity_main.xml
-       ├── item_cat.xml
-       └── activity_detail.xml
+''' - data/
+   - model/
+      - Cat.kt
+   - api/
+      - ApiService.kt
+      - RetrofitInstance.kt
+- repository/
+   - CatRepository.kt
+- ui/
+   - adapter/
+      - CatAdapter.kt
+   - main/
+      - MainActivity.kt
+      - MainViewModel.kt
+      - MainViewModelFactory.kt
+   - detail/
+      - DetailActivity.kt
+- utils/
+   - Resource.kt
+- res/
+   - layout/
+      - activity_main.xml
+      - item_cat.xml
+      - activity_detail.xml'''
 
 ### How to Use
 1. Main Screen (Cat List):
