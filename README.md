@@ -9,7 +9,8 @@ This is an Android app built in Kotlin that fetches cat images from an API and d
 - Supports placeholder images while loading the actual image.
 
 ### Project Structure
-''' - data/
+```
+- data/
    - model/
       - Cat.kt
    - api/
@@ -32,7 +33,8 @@ This is an Android app built in Kotlin that fetches cat images from an API and d
    - layout/
       - activity_main.xml
       - item_cat.xml
-      - activity_detail.xml'''
+      - activity_detail.xml
+```
 
 ### How to Use
 1. Main Screen (Cat List):
