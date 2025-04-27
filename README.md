@@ -2,12 +2,6 @@
 
 This is an Android app built in Kotlin that fetches cat images from an API and displays them in a list using a `RecyclerView`. When a user clicks on an image, a new screen opens showing the image in a larger size along with the image's width and height.
 
-### Features
-- Displays a list of cat images fetched from an external API using **Retrofit**.
-- Displays the cat image in full screen with its dimensions when clicked.
-- Uses **MVVM** architecture for clean code and separation of concerns.
-- Supports placeholder images while loading the actual image.
-
 ### Project Structure
 ```
 - data/
